@@ -23,7 +23,8 @@ var appData = {
     expenses:{},
     optionalExpenses:{},
     income:[],
-    savings:true
+    savings:true,
+
 };
 
 //Задать пользователю по 2 раза вопросы
