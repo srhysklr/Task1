@@ -73,7 +73,7 @@ var appData = {
     chooseIncome:function() {
         let items = prompt('Что принесет дополнительный доход? (Перечислите через запятую)','');
         
-        if (typeof(items) != "string") || items == "" || (typeof(items)) != "null") {
+        if (typeof(items) != "string") || items == "" || (typeof(items)) != null) {
             console.log('Вы ввели некорректные данные! Попробуйте еще раз');
         } else {
         appData.income = items.split(', ');
