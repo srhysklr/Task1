@@ -23,7 +23,7 @@ let btnStart = document.getElementById('start'),
     percentValue = document.querySelector('.choose-percent'),
     yearValue = document.querySelector('.year-value'),
     monthValue = document.querySelector('.month-value'),
-    dayValue = document.querySelector('.day-value');
+    dayValue = document.querySelector('.day-value'); 
 
 
 console.log(dayValue);
