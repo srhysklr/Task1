@@ -26,6 +26,10 @@ let startBtn = document.getElementById("start"),
 
 let money, time;
 
+expensesBtn.disabled = true;
+optionalExpensesBtn.disabled = true;
+countBtn.disabled = true;
+
 startBtn.addEventListener('click', function() {
     time = prompt ("Введите дату в формате YYYY-MM-DD", "");
     money = +prompt ("Ваш бюджет на месяц?", "");
